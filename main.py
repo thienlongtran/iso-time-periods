@@ -11,3 +11,6 @@ interval_start_time = interval_end_time - datetime.timedelta(minutes=5)
 
 print("Start Interval Time: " + interval_start_time.isoformat())
 print("End Interval Time: " + interval_end_time.isoformat())
+
+print("Start Interval Time: " + interval_start_time.strftime('%Y-%m-%dT%H:%M:%SZ'))
+print("End Interval Time: " + interval_end_time.strftime('%Y-%m-%dT%H:%M:%SZ'))
