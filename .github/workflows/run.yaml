@@ -1,0 +1,10 @@
+name: Print Interval
+on:
+  workflow_dispatch:
+
+jobs:
+  run_python:
+    runs-on: ubuntu-latest
+    steps:
+      - name: run main.py
+        run: python3 main.py
